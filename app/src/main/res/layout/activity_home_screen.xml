@@ -25,7 +25,7 @@
         android:layout_marginTop="30dp"
         android:fontFamily="@font/averia_serif_libre_light"
         android:text="@string/banking_system_app"
-        android:textColor="#DD433C55"
+        android:textColor="#DD07330F"
         android:textSize="32sp"
         android:textStyle="bold" />
 
@@ -37,25 +37,25 @@
         android:layout_marginLeft="80dp"
         android:layout_marginTop="150dp"
         android:layout_marginRight="80dp"
-        android:backgroundTint="#0099ff"
-        android:onClick="showAllUsers"
-        android:textSize="16sp"
+        android:backgroundTint="#1F4729"
         android:fontFamily="@font/averia_serif_libre_light"
+        android:onClick="showAllUsers"
         android:text="@string/all_users"
+        android:textSize="16sp"
         android:textStyle="bold" />
 
     <Button
         android:id="@+id/all_transactions"
-        android:layout_marginLeft="80dp"
-        android:layout_marginRight="80dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="80dp"
         android:layout_marginTop="20dp"
-        android:backgroundTint="#0099ff"
-        android:text="@string/all_transactions"
-        android:textStyle="bold"
-        android:onClick="showAllTransactions"
-        android:textSize="16sp"
+        android:layout_marginRight="80dp"
+        android:backgroundTint="#1F4729"
         android:fontFamily="@font/averia_serif_libre_light"
-        android:layout_gravity="center_horizontal" />
+        android:onClick="showAllTransactions"
+        android:text="@string/all_transactions"
+        android:textSize="16sp"
+        android:textStyle="bold" />
 </LinearLayout>

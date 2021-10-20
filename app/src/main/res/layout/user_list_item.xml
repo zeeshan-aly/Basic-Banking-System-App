@@ -19,11 +19,11 @@
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
             android:layout_marginLeft="10dp"
-            android:text="User Name"
             android:fontFamily="@font/armata"
-            android:textStyle="bold"
-            android:textColor="#0099ff"
-            android:textSize="18sp" />
+            android:text="User Name"
+            android:textColor="#1F4729"
+            android:textSize="18sp"
+            android:textStyle="bold" />
 
         <LinearLayout
             android:layout_width="wrap_content"

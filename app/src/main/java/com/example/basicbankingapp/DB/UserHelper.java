@@ -40,21 +40,21 @@ public class UserHelper extends SQLiteOpenHelper {
         db.execSQL(SQL_CREATE_USER_TABLE);
 
         // Insert Into Table
-        db.execSQL("insert into " + TABLE_NAME + " values(7860,'Tanishq Saini', 'tanishq@gmail.com','7584','7895641238', 15000)");
-        db.execSQL("insert into " + TABLE_NAME + " values(5862,'Gagan Tripathi', 'gagan@gmail.com','1258','8995641238', 5000)");
-        db.execSQL("insert into " + TABLE_NAME + " values(7895,'Surya Pratap', 'surya@gmail.com','8896','7595645896', 1000)");
-        db.execSQL("insert into " + TABLE_NAME + " values(1258,'Vikram Garasiya', 'vikram@gmail.com','7752','9995640038', 8000)");
-        db.execSQL("insert into " + TABLE_NAME + " values(7410,'Shivani Kumari', 'shivani@gmail.com','3669','9095648962', 7500)");
-        db.execSQL("insert into " + TABLE_NAME + " values(8529,'Piyush Joshi', 'piyush@gmail.com','9985','8855640238', 6500)");
-        db.execSQL("insert into " + TABLE_NAME + " values(3698,'Yash Pratap', 'yash@gmail.com','1207','8895640215', 4500)");
-        db.execSQL("insert into " + TABLE_NAME + " values(7853,'Khushi Jain', 'khushi@gmail.com','4522','9985021539', 2500)");
-        db.execSQL("insert into " + TABLE_NAME + " values(4562,'Ritik Sharma', 'ritik@gmail.com','6582','9309565238', 10500)");
-        db.execSQL("insert into " + TABLE_NAME + " values(2365,'Rohit Patidar', 'rohit@gmail.com','5450','8292591201', 9900)");
-        db.execSQL("insert into " + TABLE_NAME + " values(7854,'Anurag Sharma', 'anurag@gmail.com','2656','9015641200', 9800)");
-        db.execSQL("insert into " + TABLE_NAME + " values(3621,'Hitish Kumar', 'hitish@gmail.com','1203','9995641999', 11000)");
-        db.execSQL("insert into " + TABLE_NAME + " values(1122,'Naveen Chaturvedi', 'naveen@gmail.com','5566','9119541001', 5800)");
-        db.execSQL("insert into " + TABLE_NAME + " values(9512,'Gauri Parashar', 'gauri@gmail.com','2236','6254642205', 3500)");
-        db.execSQL("insert into " + TABLE_NAME + " values(7530,'Farhan Khan', 'farhan@gmail.com','6692','6893641266', 1010)");
+        db.execSQL("insert into " + TABLE_NAME + " values(7859,'S M Zeeshan Ali', 'asaraswat21@gmail.com','7584','8494845715', 4000)");
+        db.execSQL("insert into " + TABLE_NAME + " values(8652,'Gulam Mazid', 'gulamidz0@gmail.com','1258','9856641238', 6000)");
+        db.execSQL("insert into " + TABLE_NAME + " values(8795,'Shehnaz Choudhary', 'shehnazcc@gmail.com','8896','8565645896', 11000)");
+        db.execSQL("insert into " + TABLE_NAME + " values(2158,'Hina Khan', 'khanhina32@gmail.com','7752','6775640038', 5000)");
+        db.execSQL("insert into " + TABLE_NAME + " values(7410,'Shivam kumar', 'shivamkm666@gmail.com','3669','8085648962', 5500)");
+        db.execSQL("insert into " + TABLE_NAME + " values(8529,'Priyank Gangal', 'prigangs10@gmail.com','9985','8745640238', 7000)");
+        db.execSQL("insert into " + TABLE_NAME + " values(3698,'Yoshita Dutta', 'yodutta98@gmail.com','1207','8245640215', 14500)");
+        db.execSQL("insert into " + TABLE_NAME + " values(7853,'Salman Ali', 'syedsalman@gmail.com','4522','9665021539', 6500)");
+        db.execSQL("insert into " + TABLE_NAME + " values(4562,'Roshan Ara', 'aararoshan@gmail.com','6582','9859565238', 10500)");
+        db.execSQL("insert into " + TABLE_NAME + " values(2365,'Nanda Reddy', 'reddynada00@gmail.com','5450','9995691201', 19900)");
+        db.execSQL("insert into " + TABLE_NAME + " values(7854,'Anupam Singh', 'anusinghpam12@gmail.com','2656','8015641200', 8800)");
+        db.execSQL("insert into " + TABLE_NAME + " values(3621,'Raj Verma', 'rajvarma@gmail.com','1203','9525641999', 9000)");
+        db.execSQL("insert into " + TABLE_NAME + " values(1562,'Naman Mathur', 'naman0mathur@gmail.com','5566','9229541001', 15800)");
+        db.execSQL("insert into " + TABLE_NAME + " values(7892,'Yash Soni', 'soniyash87@gmail.com','2236','6114642205', 13500)");
+        db.execSQL("insert into " + TABLE_NAME + " values(3570,'Tanmay Singhania', 'singhaniatan@gmail.com','6692','9874541266', 11500)");
     }
 
     @Override

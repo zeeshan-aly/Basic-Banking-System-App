@@ -23,12 +23,12 @@
                 android:id="@+id/t_from"
                 android:layout_width="50dp"
                 android:layout_height="wrap_content"
-                android:text="From"
-                android:textColor="#0099ff"
                 android:fontFamily="@font/armata"
-                android:textStyle="bold"
+                android:text="From"
+                android:textAlignment="center"
+                android:textColor="#1F4729"
                 android:textSize="18sp"
-                android:textAlignment="center" />
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/t_from_name"
@@ -45,12 +45,12 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:gravity="end"
-                android:textSize="18sp"
                 android:fontFamily="@font/armata"
-                android:textStyle="bold"
-                android:textColor="#0099ff"
-                android:text="Amount" />
+                android:gravity="end"
+                android:text="Amount"
+                android:textColor="#1F4729"
+                android:textSize="18sp"
+                android:textStyle="bold" />
             </LinearLayout>
 
         <LinearLayout
@@ -62,13 +62,13 @@
 
             <TextView
                 android:id="@+id/t_to"
-                android:fontFamily="@font/armata"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/armata"
                 android:text="To "
-                android:textColor="#0099ff"
-                android:textStyle="bold"
-                android:textSize="18sp" />
+                android:textColor="#1F4729"
+                android:textSize="18sp"
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/t_to_name"

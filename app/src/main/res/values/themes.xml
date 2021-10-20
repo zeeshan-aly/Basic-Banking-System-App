@@ -3,7 +3,7 @@
     <style name="Theme.BasicBankingApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Primary brand color. -->
         <item name="colorPrimary">#0099ff</item>
-        <item name="colorPrimaryVariant">#0099ff</item>
+        <item name="colorPrimaryVariant">#DD07330F</item>
         <item name="colorOnPrimary">@color/white</item>
 
         <!-- Secondary brand color. -->
